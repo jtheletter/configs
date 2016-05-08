@@ -1,0 +1,13 @@
+# ~/.atom/keymap.cson
+
+'atom-text-editor':
+  'cmd-\\': 'editor:auto-indent'
+  'cmd-alt-shift-w': 'editor:toggle-soft-wrap'
+  'cmd-k cmd-t': 'right-case:title-case'
+
+'atom-workspace':
+  'cmd-k cmd-m': 'minimap:toggle'
+
+'body':
+  'cmd-alt-2': 'pane:split-right'
+  'cmd-alt-3': 'pane:split-down'

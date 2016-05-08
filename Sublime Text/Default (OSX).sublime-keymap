@@ -1,0 +1,46 @@
+// ~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap
+
+[
+
+  // Add shortcut for `Menubar > File > New View into File`.
+  { "keys": ["super+shift+o"], "command": "clone_file" },
+
+  // Add shortcut for `Menubar > Edit > Line > Reindent`.
+  { "keys": ["super+\\"], "command": "reindent" },
+
+  // Add shortcut for `Menubar > Edit > Convert Case > Title Case`.
+  { "keys": ["super+k", "super+t"], "command": "title_case" },
+
+  // Add shortcut for `Menubar > View > Show/Hide Minimap`.
+  { "keys": ["super+k", "super+m"], "command": "toggle_minimap" },
+
+  // Add shortcut for `Menubar > View > Show/Hide Tabs`.
+  { "keys": ["super+k", "super+f"], "command": "toggle_tabs" },
+
+  // Add shortcut for `Menubar > View > Word Wrap`.
+  { "keys": ["super+alt+shift+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+
+  // Add shortcut to toggle line numbers (gutter).
+  { "keys": ["super+k", "super+n"], "command": "toggle_setting", "args": {"setting": "line_numbers"} },
+
+  // Add shortcuts for `AlignTab` plugin:
+  // all_double_ampersand
+  { "keys": ["super+alt+shift+7"], "command": "align_tab", "args": { "user_input": "&&" } },
+  // all_double_pipe
+  { "keys": ["super+alt+shift+\\"], "command": "align_tab", "args": { "user_input": "\\|\\|" } },
+  // all_space
+  { "keys": ["super+alt+shift+space"], "command": "align_tab", "args": { "user_input": "\\s*/l1l0" } },
+  // first_double_slash
+  { "keys": ["super+alt+shift+/"], "command": "align_tab", "args": { "user_input": "\/\//f" } },
+  // first_colon
+  { "keys": ["super+alt+shift+;"], "command": "align_tab", "args": { "user_input": ":/f" } },
+  // first_comma
+  { "keys": ["super+alt+shift+,"], "command": "align_tab", "args": { "user_input": ",/f" } },
+  // first_equal
+  { "keys": ["super+alt+shift+="], "command": "align_tab", "args": { "user_input": "=/f" } },
+
+  // Add shortcut for https://github.com/scottmartin/speak-selected-text-sublime
+  // (can't be the same as the OS shortcut, unfortunately).
+  { "keys": ["ctrl+alt+escape"], "command": "speak_selected_text" }
+
+]

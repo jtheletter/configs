@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"ApacheConf.tmLanguage",
+		"Babel",
+		"Case Conversion",
+		"Colorsublime",
+		"GitHub Flavored Markdown Preview",
+		"LESS",
+		"LiveStyle",
+		"Monokai Extended",
+		"Package Control",
+		"ReactJS",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-sass-lint",
+		"SublimeLinter-json",
+		"SublimeLinter-php"
+	]
+}
+
+// ~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package

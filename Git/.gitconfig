@@ -1,0 +1,32 @@
+# ~/.gitconfig
+
+[alias]
+  assume = update-index --assume-unchanged
+  assume-not = update-index --no-assume-unchanged
+  br = branch
+  ch = checkout
+  com = commit
+  com-undo = reset --soft HEAD^
+  log--g = log --graph --date=short --pretty=format:'%h %ad | %s%d [%an]'
+  log--o = log --oneline
+  pull-om = pull origin master
+  pull-os = pull origin staging
+  push-om = push origin master
+  push-os = push origin staging
+  st = status
+
+[color]
+  ui = true
+
+[core]
+  autocrlf = input
+  editor = subl -n -w
+  ignorecase = false
+  safecrlf = true
+
+[credential]
+  helper = osxkeychain
+
+[user]
+  email = <name@domain.ext>
+  name = <name>

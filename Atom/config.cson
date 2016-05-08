@@ -1,0 +1,41 @@
+"*":
+  core:
+    disabledPackages: [
+      "wrap-guide"
+      "welcome"
+    ]
+    scopeForExtension:
+      ".jsx": "source.react"
+    themes: [
+      "atom-dark-ui"
+      "monokai-complete-syntax"
+    ]
+  "custom-title":
+    template: "<%= filePath %><% if (gitHead) { %> (<%= gitHead %>)<% } %>"
+  editor:
+    fontFamily: "Consolas"
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "8e61cdd4-cd5d-4e7d-82e5-67bab2861667"
+  "highlight-column":
+    lineMode: true
+    opacity: 0.5
+  linter:
+    gutterPosition: "Left"
+    lintOnFlyInterval: 500
+    showErrorTabLine: true
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "tree-view":
+    showOnRightSide: false
+  welcome:
+    showOnStartup: false
+
+# ~/.atom/config.cson

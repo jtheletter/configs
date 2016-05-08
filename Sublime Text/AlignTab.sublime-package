@@ -1,0 +1,16 @@
+// ~/Library/Application Support/Sublime Text 3/Installed Packages
+
+{
+  "named_patterns" : {
+
+    "all_double_ampersand" : "&&",
+    "all_double_pipe"      : "\\|\\|",
+    "all_space"            : "\\s*/l1l0",
+
+    "first_double_slash"   : "\/\//f",
+    "first_colon"          : ":/f",
+    "first_comma"          : ",/f",
+    "first_equal"          : "=/f"
+
+  }
+}
