@@ -1,4 +1,9 @@
-# Download latest Node (includes NPM) - https://nodejs.org/
+# Download latest Node/NPM (https://nodejs.org/).
+
+# Download Brew (https://brew.sh/) or update:
+brew update
+
+brew install ruby
 
 sudo gem install sass
 sudo gem install scss_lint
