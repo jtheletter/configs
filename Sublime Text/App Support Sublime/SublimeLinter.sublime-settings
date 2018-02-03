@@ -1,7 +1,7 @@
 {
     "user": {
         "debug": false,
-        "delay": 0,
+        "delay": 0.25,
         "error_color": "e00",
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
         "gutter_theme_excludes": [],
@@ -38,7 +38,9 @@
             "json": {
                 "@disable": false,
                 "args": [],
-                "excludes": ["*.eslintrc"],
+                "excludes": [
+                    "*.eslintrc"
+                ],
                 "strict": true
             },
             "php": {
@@ -76,9 +78,15 @@
             "php": "html",
             "python django": "python"
         },
+        "tooltip_fontsize": "1rem",
+        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
+        "tooltip_theme_excludes": [],
+        "tooltips": false,
+        "use_current_shell_path": false,
         "warning_color": "bb0",
         "wrap_find": true
     }
 }
 
-// ~/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings
+// NOTE: Comments in this copy only.
+// LOCATION: ~/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings

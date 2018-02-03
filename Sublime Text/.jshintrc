@@ -1,7 +1,0 @@
-// ~/.jshintrc
-// Options: http://jshint.com/docs/options/
-
-{
-  "-W027": true, // Suppress `Unreachable 'break' after 'return'` warning.
-  "laxbreak": true
-}

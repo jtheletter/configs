@@ -1,5 +1,3 @@
-// ~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap
-
 [
 
   // Add shortcut for `Menubar > File > New View into File`.
@@ -44,3 +42,5 @@
   { "keys": ["ctrl+alt+escape"], "command": "speak_selected_text" }
 
 ]
+
+// LOCATION: ~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap

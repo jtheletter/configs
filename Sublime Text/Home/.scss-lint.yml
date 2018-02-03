@@ -1,0 +1,19 @@
+linters:
+
+  Comment:
+    exclude: '**/*.css'
+
+  EmptyLineBetweenBlocks:
+    enabled: false
+
+  LeadingZero:
+    enabled: true
+    style: include_zero
+
+  MergeableSelector:
+    force_nesting: false
+
+# NOTE: Comments for this copy only.
+# LOCATION: ~/.scss-lint.yml
+# DEFAULTS: /Library/Ruby/Gems/2.0.0/gems/scss_lint-X.XX.X/config/default.yml
+# INSTRUCTIONS: https://github.com/attenzione/SublimeLinter-scss-lint

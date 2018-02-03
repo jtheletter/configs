@@ -1,6 +1,7 @@
-<!-- ~/Library/Application Support/Sublime Text 3/Packages/User/js-debugger.sublime-snippet -->
 <snippet>
   <content><![CDATA[debugger;]]></content>
   <tabTrigger>debugger;</tabTrigger>
   <scope>source.js</scope>
 </snippet>
+
+<!-- ~/Library/Application Support/Sublime Text 3/Packages/User/js-debugger.sublime-snippet -->
