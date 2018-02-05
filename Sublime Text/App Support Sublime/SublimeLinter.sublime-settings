@@ -30,9 +30,8 @@
                 "excludes": []
             },
             "jshint": {
-                "@disable": true,
+                "@disable": false,
                 "args": [],
-                "config_filename": ".jshintrc",
                 "esversion": 6,
                 "excludes": []
             },
