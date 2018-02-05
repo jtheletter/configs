@@ -8,17 +8,18 @@
         "lint_mode": "background",
         "linters": {
             "csslint": {
-                "@disable": true,
+                "@disable": false,
                 "args": [],
                 "errors": "",
                 "excludes": [],
                 "ignore": [
-                    "adjoining-classes",
                     "box-model",
                     "box-sizing",
-                    "fallback-colors",
-                    "ids",
+                    "bulletproof-font-face",
                     "universal-selector"
+                ],
+                "ignore_match": [
+                    "Unknown property 'unicode-range'"
                 ],
                 "warnings": ""
             },
