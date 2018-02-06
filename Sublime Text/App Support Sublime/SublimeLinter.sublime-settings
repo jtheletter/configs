@@ -23,6 +23,11 @@
                 ],
                 "warnings": ""
             },
+            "htmlhint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "eslint": {
                 "@disable": false,
                 "args": [],
