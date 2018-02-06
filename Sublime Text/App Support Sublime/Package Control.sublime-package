@@ -19,12 +19,14 @@
         "Sass",
         "SublimeLinter",
         "SublimeLinter-contrib-htmlhint",
-        "SublimeLinter-contrib-sass-lint",
+        "SublimeLinter-contrib-scss-lint",
+        "SublimeLinter-csslint",
         "SublimeLinter-eslint",
+        "SublimeLinter-jshint",
         "SublimeLinter-json",
         "SublimeLinter-php"
     ]
 }
 
 // NOTE: Comments for this copy only:
-// ~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings
+// PATH: ~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings

@@ -1,7 +1,7 @@
 {
     "user": {
         "debug": false,
-        "delay": 0.25,
+        "delay": 0,
         "error_color": "e00",
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
         "gutter_theme_excludes": [],
@@ -43,9 +43,7 @@
             "json": {
                 "@disable": false,
                 "args": [],
-                "excludes": [
-                    "*.eslintrc"
-                ],
+                "excludes": [],
                 "strict": true
             },
             "php": {
@@ -53,10 +51,14 @@
                 "args": [],
                 "excludes": []
             },
-            "sass": {
+            "scss": {
                 "@disable": false,
                 "args": [],
-                "excludes": []
+                "exclude-linter": "",
+                "excludes": [
+                    "*.css"
+                ],
+                "include-linter": ""
             }
         },
         "mark_style": "stippled underline",
@@ -94,4 +96,4 @@
 }
 
 // NOTE: Comments in this copy only.
-// LOCATION: ~/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings
+// PATH: ~/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings
