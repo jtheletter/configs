@@ -37,7 +37,6 @@
             "jshint": {
                 "@disable": false,
                 "args": [],
-                "esversion": 6,
                 "excludes": []
             },
             "json": {
