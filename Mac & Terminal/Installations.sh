@@ -15,11 +15,11 @@ sudo gem install sass
 sudo gem install scss_lint
 
 # Install packages for Sublime:
+npm install -g babel
 npm install -g csslint
 npm install -g eslint
 npm install -g htmlhint
 npm install -g jshint
-npm install -g jsxhint
 
 # Install other packages:
 npm install -g svgo

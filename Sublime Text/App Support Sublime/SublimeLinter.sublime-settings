@@ -23,21 +23,22 @@
                 ],
                 "warnings": ""
             },
+            "eslint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "htmlhint": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
             },
-            "eslint": {
-                "@disable": false,
-                "args": [],
-                "config_filename": ".eslintrc",
-                "excludes": []
-            },
             "jshint": {
                 "@disable": false,
                 "args": [],
-                "excludes": []
+                "excludes": [
+                    "*.jsx"
+                ]
             },
             "json": {
                 "@disable": false,
@@ -81,8 +82,11 @@
             "html (django)": "html",
             "html (rails)": "html",
             "html 5": "html",
+            "javascript (babel)": "javascript",
+            "magicpython": "python",
             "php": "html",
-            "python django": "python"
+            "python django": "python",
+            "pythonimproved": "python"
         },
         "tooltip_fontsize": "1rem",
         "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",

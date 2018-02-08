@@ -3,6 +3,7 @@
     [
         "admin",
         "endian",
+        "google",
         "googol",
         "online"
     ],
@@ -45,4 +46,4 @@
 }
 
 // NOTE: Comments for this copy only:
-// LOCATION: ~/Library/Application Support/Sublime Text 3/User/Preferences.sublime-settings
+// PATH: ~/Library/Application Support/Sublime Text 3/User/Preferences.sublime-settings
