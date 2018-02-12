@@ -15,8 +15,7 @@
                 "ignore": [
                     "box-model",
                     "box-sizing",
-                    "bulletproof-font-face",
-                    "universal-selector"
+                    "bulletproof-font-face"
                 ],
                 "ignore_match": [
                     "Unknown property 'unicode-range'"
