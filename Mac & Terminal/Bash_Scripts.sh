@@ -1,12 +1,5 @@
 # Terminal commands for macOS.
 
-# Prevent play/pause button on keyboard & headphones from launching iTunes.
-csrutil status
-# If SIP enabled, reboot in recovery mode (holding command-r).
-csrutil disable
-# Reboot.
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
-
 # Disable Mac OS X slow-motion expose.
 cd ~/Library/Preferences
 open com.apple.symbolichotkeys.plist
