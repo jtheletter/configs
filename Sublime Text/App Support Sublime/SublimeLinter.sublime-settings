@@ -1,101 +1,13 @@
 {
-    "user": {
-        "debug": false,
-        "delay": 0,
-        "error_color": "e00",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
-        "gutter_theme_excludes": [],
-        "lint_mode": "background",
-        "linters": {
-            "csslint": {
-                "@disable": false,
-                "args": [],
-                "errors": "",
-                "excludes": [],
-                "ignore": [
-                    "box-model",
-                    "box-sizing",
-                    "bulletproof-font-face"
-                ],
-                "ignore_match": [
-                    "Unknown property 'unicode-range'"
-                ],
-                "warnings": ""
-            },
-            "eslint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "htmlhint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "jshint": {
-                "@disable": false,
-                "args": [],
-                "excludes": [
-                    "*.jsx"
-                ]
-            },
-            "json": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "strict": true
-            },
-            "php": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "scss": {
-                "@disable": false,
-                "args": [],
-                "exclude-linter": "",
-                "excludes": [
-                    "*.css"
-                ],
-                "include-linter": ""
-            }
-        },
-        "mark_style": "stippled underline",
-        "no_column_highlights_line": false,
-        "passive_warnings": false,
-        "paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "python_paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "rc_search_limit": 3,
-        "shell_timeout": 10,
-        "show_errors_on_save": false,
-        "show_marks_in_minimap": true,
-        "syntax_map": {
-            "html (django)": "html",
-            "html (rails)": "html",
-            "html 5": "html",
-            "javascript (babel)": "javascript",
-            "magicpython": "python",
-            "php": "html",
-            "python django": "python",
-            "pythonimproved": "python"
-        },
-        "tooltip_fontsize": "1rem",
-        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
-        "tooltip_theme_excludes": [],
-        "tooltips": false,
-        "use_current_shell_path": false,
-        "warning_color": "bb0",
-        "wrap_find": true
+    "delay": 0,
+
+    "linters": {
+        "scss": {
+            "excludes": [
+                "*.css"
+            ]
+        }
     }
 }
-
-// NOTE: Comments in this copy only.
+// NOTE: Comment this copy only.
 // PATH: ~/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings
