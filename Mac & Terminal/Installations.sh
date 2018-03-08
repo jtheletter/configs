@@ -1,20 +1,26 @@
-# Download latest Node/NPM (https://nodejs.org/).
+# Install latest Node & Node's provided NPM: Download from - https://nodejs.org/
 
-# Install Brew:
-# Follow instruction on - https://brew.sh/
-# Or update Brew:
+# Update NPM (Node's download isn't always latest):
+npm i -g npm
+
+# Install latest Git: Download from - https://git-scm.com/downloads
+
+# Install Brew: Run script on - https://brew.sh/
+
+# Update Brew:
 brew update
 
 # Install Ruby:
-# brew install ruby
-# Or upgrade Ruby:
+brew install ruby
+
+# Update Ruby:
 brew upgrade ruby
 
-# Install gems for Sublime:
+# Install Ruby gems for Sublime:
 sudo gem install sass
 sudo gem install scss_lint
 
-# Install packages for Sublime:
+# Install Node packages for Sublime:
 npm install -g babel
 npm install -g csslint
 npm install -g eslint
