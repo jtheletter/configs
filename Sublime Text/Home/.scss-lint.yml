@@ -1,7 +1,0 @@
-linters:
-
-  Indentation:
-    width: 4
-
-# PATH: ~/.scss-lint.yml
-# DOCS: https://github.com/brigade/scss-lint

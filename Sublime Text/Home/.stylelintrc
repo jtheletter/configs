@@ -1,0 +1,33 @@
+{
+    "defaultSeverity": "warning",
+
+    "extends": "/usr/local/lib/node_modules/stylelint-config-standard",
+
+    "plugins": [
+        "/usr/local/lib/node_modules/stylelint-order"
+    ],
+
+    "rules": {
+
+        "at-rule-empty-line-before": ["never"],
+
+        "comment-empty-line-before": ["never"],
+
+        "indentation": [4],
+
+        "order/properties-alphabetical-order": true,
+
+        "property-no-unknown": [true, {
+            "ignoreProperties": [
+                "overflow-scrolling",
+                "tap-highlight-color"
+            ]
+        }],
+
+        "rule-empty-line-before": ["never"]
+
+    }
+}
+
+// NOTE: Comment this file only.
+// PATH: ~/.stylelintrc
