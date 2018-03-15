@@ -19,7 +19,7 @@ brew upgrade ruby
 # Install Ruby gems for Sublime:
 sudo gem install sass
 
-# Install Node packages for Sublime:
+# Install NPM packages for Sublime:
 npm install -g babel
 npm install -g eslint
 npm install -g htmlhint
@@ -30,3 +30,6 @@ npm install -g stylelint-order
 
 # Install other packages:
 npm install -g svgo
+
+# Update all global NPM packages:
+npm update -g .
