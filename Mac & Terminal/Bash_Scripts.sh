@@ -5,6 +5,9 @@ cd ~/Library/Preferences
 open com.apple.symbolichotkeys.plist
 # Change 34, 35, and 37, `enabled` to `NO`, save, & reboot.
 
+# Disable text replacement globally (requires reboot, doesn't visually toggle menubar checkmarks).
+defaults write -g WebAutomaticTextReplacementEnabled -bool false
+
 # Shorten prefix-name of screenshots.
 defaults write com.apple.screencapture name "Pic"
 
