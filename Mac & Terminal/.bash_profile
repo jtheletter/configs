@@ -14,7 +14,7 @@ function parse_git_branch () {
 #
 
 # Add `cd`-compatible variable (prefix w/ `$` during `cd` operation, not in declaration below).
-<variable>=/path/to/destination/
+# <variable>=/path/to/destination/
 
 ##
 # Aliases
@@ -23,8 +23,8 @@ function parse_git_branch () {
 # Reformat `date` output as ISO-8601.
 alias date='date +"%Y-%m-%d %H:%M:%S UTC%z"'
 
-# Add alias for list (long, all, typed, fold-sorted).
-alias ll='ls -laFf'
+# Add alias for list (all, with type indicators, long format).
+alias ll='ls -aFl'
 
 # Add alias to clear saved session from Sublime Text.
 alias subl_session_clear='rm ~/Library/Application\ Support/Sublime\ Text\ 3/Local/Auto\ Save\ Session.sublime_session'
@@ -36,7 +36,7 @@ alias git_delete_unmerged_remote_and_local_except_master_and_dev="git fetch -p &
 alias git_delete_unmerged_remote_and_local_except_master_and_staging="git fetch -p && git checkout master && git pull origin master && git branch -r --merged | grep -v '\*\|master\|staging' | sed 's/origin\///' | xargs -n 1 git push --delete origin && git branch --merged | grep -v '\*\|master\|staging' | xargs -n 1 git branch -d"
 
 # Add shortcut for common sshes.
-alias ssh_<place>='ssh -i ~/.ssh/<key-file>.pem <user>@<address>'
+# alias ssh_<place>='ssh -i ~/.ssh/<key-file>.pem <user>@<address>'
 
 ##
 # Exports
