@@ -8,17 +8,14 @@
         "AlignTab",
         "ApacheConf",
         "Babel",
-        "Case Conversion",
         "Colorsublime",
         "GitHub Flavored Markdown Preview",
         "LESS",
         "LiveStyle",
         "Monokai Extended",
-        "Package Control",
         "Sass",
         "SublimeLinter",
         "SublimeLinter-contrib-htmlhint",
-        "SublimeLinter-contrib-stylelint",
         "SublimeLinter-eslint",
         "SublimeLinter-jshint",
         "SublimeLinter-json",
@@ -28,3 +25,7 @@
 
 // NOTE: Comments for this copy only:
 // PATH: ~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings
+// LOST? (locate/replace later)
+//         "Case Conversion",
+//         "Package Control",
+//         "SublimeLinter-contrib-stylelint",

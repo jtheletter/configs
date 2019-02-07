@@ -7,7 +7,7 @@
         "googol",
         "online"
     ],
-    "color_scheme": "Packages/User/SublimeLinter/monokai-best (SL).tmTheme",
+    "color_scheme": "Packages/User/monokai-best.tmTheme",
     "detect_indentation": false,
     "draw_white_space": "all",
     "enable_tab_scrolling": false,
