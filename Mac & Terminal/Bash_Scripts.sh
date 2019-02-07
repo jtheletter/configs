@@ -1,9 +1,12 @@
 # Terminal commands for macOS.
 
-# Disable Mac OS X slow-motion expose.
+# Disable macOS slow-motion expose.
 cd ~/Library/Preferences
 open com.apple.symbolichotkeys.plist
 # Change 34, 35, and 37, `enabled` to `NO`, save, & reboot.
+
+# Disable macOS auto-quit background Apple apps.
+defaults write -g NSDisableAutomaticTermination -bool TRUE
 
 # Shorten prefix-name of screenshots.
 defaults write com.apple.screencapture name "Pic"
