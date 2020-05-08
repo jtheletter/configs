@@ -1,31 +1,32 @@
 # ~/.gitconfig
 
 [alias]
-  assume = update-index --assume-unchanged
-  assume-not = update-index --no-assume-unchanged
-  br = branch
-  ch = checkout
-  com = commit
-  com-undo = reset --soft HEAD^
-  log-jp = log --pretty='%C(auto)%h %C(auto)%ai (%ar%C(auto)) %C(cyan)%an: %C(auto)%s %C(auto)%d'
-  pull-om = pull origin master
-  pull-os = pull origin staging
-  push-om = push origin master
-  push-os = push origin staging
-  st = status
+    assume = update-index --assume-unchanged
+    assume-not = update-index --no-assume-unchanged
+    br = branch
+    ch = checkout
+    com = commit
+    com-undo = reset --soft HEAD^
+    log-jp = log --pretty='%C(auto)%h %C(auto)%ai (%ar%C(auto)) %C(cyan)%an: %C(auto)%s %C(auto)%d'
+    pull-om = pull origin master
+    pull-os = pull origin staging
+    push-om = push origin master
+    push-os = push origin staging
+    st = status
 
 [color]
-  ui = true
+    ui = true
 
 [core]
-  autocrlf = input
-  editor = subl -n -w
-  ignorecase = false
-  safecrlf = true
+    autocrlf = input
+    editor = subl -n -w
+    ignorecase = false
+    safecrlf = true
+    trustctime = false
 
 [credential]
-  helper = osxkeychain
+    helper = osxkeychain
 
 [user]
-  email = <name@domain.ext>
-  name = <name>
+    email = 49571924+jtheletter@users.noreply.github.com
+    name = JP
