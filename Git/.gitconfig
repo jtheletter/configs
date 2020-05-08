@@ -7,8 +7,7 @@
   ch = checkout
   com = commit
   com-undo = reset --soft HEAD^
-  log--g = log --graph --date=short --pretty=format:'%h %ad | %s%d [%an]'
-  log--o = log --oneline
+  log-jp = log --pretty='%C(auto)%h %C(auto)%ai (%ar%C(auto)) %C(cyan)%an: %C(auto)%s %C(auto)%d'
   pull-om = pull origin master
   pull-os = pull origin staging
   push-om = push origin master
