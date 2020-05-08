@@ -1,25 +1,28 @@
-# Install latest Node & Node's provided NPM: Download from - https://nodejs.org/
+# Install latest Node & Node's latest NPM:
+# https://nodejs.org/
 
 # Update NPM (Node's download isn't always latest):
 npm i -g npm
 
-# Install latest Git: Download from - https://git-scm.com/downloads
-
-# Install Brew: Run script on - https://brew.sh/
+# If not done, install Brew:
+# https://brew.sh/
 
 # Update Brew:
 brew update
 
-# Install Ruby:
+# Install latest Git:
+# https://git-scm.com/downloads
+
+# If not done, install Ruby:
 brew install ruby
 
-# Update Ruby:
+# Upgrade Ruby:
 brew upgrade ruby
 
-# Install Ruby gems for Sublime:
+# If not done, install Ruby gems for Sublime:
 sudo gem install sass
 
-# Install NPM packages for Sublime:
+# If not done, install NPM packages for Sublime:
 npm install -g babel
 npm install -g eslint
 npm install -g htmlhint
@@ -28,7 +31,7 @@ npm install -g postcss stylelint
 npm install -g stylelint-config-standard
 npm install -g stylelint-order
 
-# Install other packages:
+# If not done, install other NPM packages:
 npm install -g svgo
 
 # Update all global NPM packages:
