@@ -51,9 +51,6 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 # Add path to PHP to start of `$PATH`.
 export PATH=/usr/local/php5/bin:$PATH
 
-# Add path to Git to start of `$PATH`.
-export PATH=/usr/local/git/bin:$PATH
-
 # Reformat window title to display <path>, command-line prompt to display <directory> [<Git branch>] `$` in black (30) on light grey (47).
 export PS1="\[\e];\w\a\e[30;47m\]\W\$(parse_git_branch) $\[\e[0m\] "
 

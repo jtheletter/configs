@@ -1,5 +1,6 @@
 # Install latest Node & Node's latest NPM:
 # https://nodejs.org/
+# NB: This resets owner of `/usr/local`; will need to re-run ```sudo chown -R `whoami` /usr/local```.
 
 # Update NPM (Node's download isn't always latest):
 npm i -g npm
@@ -10,7 +11,7 @@ npm i -g npm
 # Update Brew:
 brew update
 
-# Install latest Git:
+# Install latest Git (as of 2020, Brew is recommended):
 # https://git-scm.com/downloads
 
 # If not done, install Ruby:
