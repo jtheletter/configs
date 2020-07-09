@@ -19,6 +19,9 @@
     // Add shortcut for `Menubar > View > Show/Hide Minimap`.
     { "keys": ["super+k", "super+m"], "command": "toggle_minimap" },
 
+    // Add shortcut for `Menubar > View > Show/Hide Status Bar`.
+    { "keys": ["super+k", "super+s"], "command": "toggle_status_bar" },
+
     // Add shortcut for `Menubar > View > Show/Hide Tabs`.
     { "keys": ["super+k", "super+f"], "command": "toggle_tabs" },
 
