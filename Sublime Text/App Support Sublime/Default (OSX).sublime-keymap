@@ -7,6 +7,9 @@
         }
     },
 
+    // Overwrite default shortcut for `Menubar > Tools > Macros > Delete to Hard EOL` to something benign, to prevent accidental trigger.
+    { "keys": ["super+k", "super+k"], "command": "unfold_all" },
+
     // Add shortcut for `Menubar > File > New View into File`.
     { "keys": ["super+shift+o"], "command": "clone_file" },
 
