@@ -1,5 +1,11 @@
 {
-    "delay": 0
+    "delay": 0,
+    "linters": {
+        "htmlhint": {
+             "excludes": "*.md"
+        }
+    }
 }
+
 // NOTE: Comment this copy only.
 // PATH: ~/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings
