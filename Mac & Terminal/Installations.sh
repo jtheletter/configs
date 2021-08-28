@@ -1,24 +1,17 @@
-# Install latest Node & Node's latest NPM:
-# https://nodejs.org/
-# NB: This resets owner of `/usr/local`; will need to re-run ```sudo chown -R `whoami` /usr/local```.
-
-# Update NPM (Node's download isn't always latest):
-npm i -g npm
+# If not done, take ownership of directory for NPM installations:
+sudo chown -R "$USER":admin /usr/local/*
 
 # If not done, install Brew:
 # https://brew.sh/
 
-# Update Brew:
-brew update
+# If not done, install Node:
+brew install node
 
-# Install latest Git (as of 2020, Brew is recommended):
-# https://git-scm.com/downloads
+# If not done, install Git:
+brew install git
 
 # If not done, install Ruby:
 brew install ruby
-
-# Upgrade Ruby:
-brew upgrade ruby
 
 # If not done, install Ruby gems for Sublime:
 sudo gem install sass
@@ -35,8 +28,14 @@ npm install -g stylelint-order
 # If not done, install other NPM packages:
 npm install -g svgo
 
+# If not done, install AWS CLI:
+# https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+
+# Update Brew:
+brew update
+
+# Upgrade all Brew packages:
+brew upgrade
+
 # Update all global NPM packages:
 npm update -g .
-
-# Install AWS CLI:
-# https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
