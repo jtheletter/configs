@@ -7,6 +7,9 @@ sudo chown -R "$USER":admin /usr/local/*
 # If not done, install Node:
 brew install node
 
+# If not done, install NPM:
+brew install npm
+
 # If not done, install Git:
 brew install git
 
