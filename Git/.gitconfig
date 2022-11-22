@@ -30,3 +30,6 @@
 [user]
     email = 49571924+jtheletter@users.noreply.github.com
     name = JP
+
+[http]
+    postBuffer = 100000000
