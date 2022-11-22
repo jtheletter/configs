@@ -1,20 +1,20 @@
-# If not done, take ownership of directory for NPM installations:
-sudo chown -R "$USER":admin /usr/local/*
+## If not done, take ownership of directory for NPM installations:
+## sudo chown -R "$USER":admin /usr/local/*
 
 # If not done, install Brew:
-# https://brew.sh/
+# Per instructions at: https://brew.sh/
 
 # If not done, install Node:
 brew install node
 
-# If not done, install NPM:
-brew install npm
+## If not done, install NPM:
+## brew install npm
 
-# If not done, install Git:
-brew install git
+## If not done, install Git:
+## brew install git
 
-# If not done, install Ruby:
-brew install ruby
+## If not done, install Ruby:
+## brew install ruby
 
 # If not done, install Ruby gems for Sublime:
 sudo gem install sass
@@ -32,7 +32,7 @@ npm install -g stylelint-order
 npm install -g svgo
 
 # If not done, install AWS CLI:
-# https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+# Per instructions at: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
 
 # Update Brew:
 brew update
@@ -41,4 +41,4 @@ brew update
 brew upgrade
 
 # Update all global NPM packages:
-npm update -g .
+npm update -g
