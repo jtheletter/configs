@@ -1,3 +1,8 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+
+// PATH: ~/Library/Application Support/Sublime Text 3/User/Preferences.sublime-settings
+
 {
     "added_words":
     [
@@ -141,7 +146,7 @@
     ],
     "caret_style": "smooth",
     "caret_blink_interval": 0.5,
-    "color_scheme": "Packages/User/monokai-best.tmTheme",
+    "color_scheme": "Packages/Colorsublime - Themes/monokai-best.tmTheme",
     "detect_indentation": false,
     "draw_white_space": "all",
     "enable_tab_scrolling": false,
@@ -179,6 +184,3 @@
     "use_simple_full_screen": true,
     "use_tab_stops": false,
 }
-
-// NOTE: Comments for this copy only:
-// PATH: ~/Library/Application Support/Sublime Text 3/User/Preferences.sublime-settings
