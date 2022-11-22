@@ -41,7 +41,9 @@ alias git_delete_unmerged_remote_and_local_except_master_and_dev="git fetch -p &
 alias git_delete_unmerged_remote_and_local_except_master_and_staging="git fetch -p && git checkout master && git pull origin master && git branch -r --merged | grep -v '\*\|master\|staging' | sed 's/origin\///' | xargs -n 1 git push --delete origin && git branch --merged | grep -v '\*\|master\|staging' | xargs -n 1 git branch -d"
 
 # Add shortcut for common sshes.
+#
 # alias ssh_<place>='ssh -i ~/.ssh/<key-file>.pem <user>@<address>'
+#
 
 ##
 # Exports
