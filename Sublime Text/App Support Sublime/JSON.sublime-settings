@@ -1,0 +1,12 @@
+// ~/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings
+
+{
+	"extensions":
+	[
+		".stylelintrc",
+		".jshintrc",
+		".eslintrc",
+		".htmlhint",
+		".htmlhintrc",
+	],
+}
