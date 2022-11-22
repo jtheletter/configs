@@ -1,7 +1,7 @@
+<!-- ~/Library/Application Support/Sublime Text 3/Packages/User/js-console.sublime-snippet -->
+
 <snippet>
   <content><![CDATA[console.$1($2);]]></content>
   <tabTrigger>console</tabTrigger>
   <scope>source.js</scope>
 </snippet>
-
-<!-- ~/Library/Application Support/Sublime Text 3/Packages/User/js-console.sublime-snippet -->
