@@ -60,3 +60,8 @@ export PS1="\[\e];\w\a\e[30;47m\]\W\$(parse_git_branch) $\[\e[0m\] "
 
 # Refer to bash script to enable auto-complete in Git.
 source ~/.git-completion.bash
+
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+export PATH
