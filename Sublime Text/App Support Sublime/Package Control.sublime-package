@@ -1,31 +1,29 @@
-{
-    "bootstrapped": true,
-    "in_process_packages":
-    [
-    ],
-    "installed_packages":
-    [
-        "AlignTab",
-        "ApacheConf",
-        "Babel",
-        "Colorsublime",
-        "GitHub Flavored Markdown Preview",
-        "LESS",
-        "LiveStyle",
-        "Monokai Extended",
-        "Sass",
-        "SublimeLinter",
-        "SublimeLinter-contrib-htmlhint",
-        "SublimeLinter-eslint",
-        "SublimeLinter-jshint",
-        "SublimeLinter-json",
-        "SublimeLinter-php"
-    ]
-}
-
-// NOTE: Comments for this copy only:
 // PATH: ~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings
-// LOST? (locate/replace later)
-//         "Case Conversion",
-//         "Package Control",
-//         "SublimeLinter-contrib-stylelint",
+
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"ApacheConf",
+		"Babel",
+		"Case Conversion",
+		"Colorsublime",
+		"GitHub Flavored Markdown Preview",
+		"LESS",
+		"LiveStyle",
+		"Monokai Extended",
+		"Package Control",
+		"PackageResourceViewer",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-contrib-htmlhint",
+		"SublimeLinter-eslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-php",
+	],
+}
