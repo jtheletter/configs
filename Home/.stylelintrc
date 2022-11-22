@@ -1,3 +1,5 @@
+// PATH: ~/.stylelintrc
+
 {
     "defaultSeverity": "warning",
 
@@ -28,6 +30,3 @@
 
     }
 }
-
-// NOTE: Comment this file only.
-// PATH: ~/.stylelintrc

@@ -1,3 +1,5 @@
+// LOCATION: ~/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings
+
 {
   "draw_centered": false,
   "gutter": true,
@@ -6,5 +8,3 @@
   "word_wrap": false,
   "wrap_width": 0
 }
-
-// LOCATION: ~/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings

@@ -1,3 +1,5 @@
+# ~/.atom/config.cson
+
 "*":
   core:
     disabledPackages: [
@@ -37,5 +39,3 @@
     showOnRightSide: false
   welcome:
     showOnStartup: false
-
-# ~/.atom/config.cson

@@ -1,7 +1,7 @@
+// PATH: ~/.htmlhintrc
+
 {
     "rules": {
         "spec-char-escape": "false"
     }
 }
-// NOTE: Comment this copy only.
-// PATH: ~/.htmlhintrc

@@ -1,5 +1,5 @@
 # Add this file to: ~/.git-completion.bash
-# Add to bash profile: source ~/.git-completion.bash
+# Add this line to bash profile: source ~/.git-completion.bash
 
 #!bash
 #
