@@ -42,6 +42,9 @@ brew install node
 ## If not done, install Git:
 ## brew install git
 
+# If not done, install Heroku:
+brew tap heroku/brew && brew install heroku
+
 ## If not done, install Ruby:
 ## brew install ruby
 
