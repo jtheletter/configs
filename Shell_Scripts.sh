@@ -23,6 +23,9 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 # Add `subl` alias to `/usr/local/bin/` pointing to Sublime Text 3 app’s binary file.
 sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
+# Add Debug menu to Safari.
+defaults write ~/Library/Containers/com.apple.Safari/Data/Library/Preferences/com.apple.Safari.plist IncludeInternalDebugMenu -bool YES
+
 ## Prevent Mail app attachments previewing inline.
 ## Must grant Terminal "Full Disk Access" in Syst Prefs first.
 ## defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
