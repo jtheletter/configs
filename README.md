@@ -1,4 +1,4 @@
 configs
 =======
 
-Just a place for posting my config files.
+Just a place to post my config files.
