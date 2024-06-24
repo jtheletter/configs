@@ -7,13 +7,8 @@
     ch = checkout
     com = commit
     com-undo = reset --soft HEAD^
-    log-jp = log --pretty='%C(auto)%h %C(auto)%ai (%ar%C(auto)) %C(cyan)%an: %C(auto)%s %C(auto)%d'
-    pull-hm = pull heroku master
     pull-om = pull origin master
-    pull-os = pull origin staging
-    push-hm = push heroku master
     push-om = push origin master
-    push-os = push origin staging
     st = status
 
 [color]
