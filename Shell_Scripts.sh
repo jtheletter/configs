@@ -65,20 +65,19 @@ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/
 # If not done, install Brew:
 # Per instructions at: https://brew.sh/
 
-# If not done, install Node:
+# If not done, install Brew packages:
 brew install node
+brew install yt-dlp
 
-# If not done, install NPM packages for Sublime:
+# If not done, install NPM packages:
+npm install -g svgo
 npm install -g eslint
 
-# If not done, install miscellaneous NPM packages:
-npm install -g svgo
-
-# Update Brew:
+# Later, update Brew:
 brew update
 
-# Upgrade all Brew packages:
+# Later, upgrade all Brew packages:
 brew upgrade
 
-# Update all global NPM packages:
+# Later, update all global NPM packages:
 npm update -g
