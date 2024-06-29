@@ -1,0 +1,17 @@
+{
+    "schema_version": "3.0.0",
+    "packages": [
+        {
+            "name": "Cross",
+            "description": "Create a cursor-centered cross.",
+            "homepage": "https://github.com/chancedai/sublime-cross",
+            "author": "Chance Dai <daichang@bq69.com>",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "branch": "master"
+                }
+            ]
+        }
+    ]
+}
