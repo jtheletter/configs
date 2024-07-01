@@ -1,7 +1,7 @@
 <!-- ~/Library/Application Support/Sublime Text 3/Packages/User/html-script.sublime-snippet -->
 
 <snippet>
-  <content><![CDATA[script src="$1"></script>]]></content>
-  <tabTrigger>script</tabTrigger>
-  <scope>text.html</scope>
+    <content><![CDATA[script src="$1"></script>]]></content>
+    <tabTrigger>script</tabTrigger>
+    <scope>text.html</scope>
 </snippet>
